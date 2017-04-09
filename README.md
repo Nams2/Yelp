@@ -24,7 +24,7 @@ Filter page. Unfortunately, not all the filters in the real Yelp App, are suppor
 * [+] Clicking on the "Search" button should dismiss the filters page and trigger the search w/ the new filter settings.
 * [ ] Optional: Distance filter should expand as in the real Yelp app.
 * [ ] Optional: Categories should show a subset of the full list with a "See All" row to expand.
-* [ ] A formatted list of categories available in the Public API can be found here.
+    A formatted list of categories available in the Public API can be found here.
 * [ ] Optional: Implement the restaurant detail page.
 
 
