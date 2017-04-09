@@ -29,7 +29,7 @@ class FiltersViewController: UIViewController, UITableViewDelegate, UITableViewD
     var selectedSort = 0
     var isDealSelected = false
     
-    var selectedDistance = "Best Match"
+    var selectedDistance = "Auto"
     var selectedDistanceIndex = 0
     var shouldDisplayAllDistances = false
 
