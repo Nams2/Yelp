@@ -14,7 +14,8 @@ Search results page
 * [+] Search bar should be in the navigation bar (doesn't have to expand to show location like the real Yelp app does).
     Hint: This is just a UISearchBar that is set as the navigationItem.titleView
 * [+] Optional: Infinite scroll for restaurant results
-* [ ] Optional: Implement map view of restaurant results
+* [+] Optional: Implement map view of restaurant results [Implemeted this in the detail view controller page. When you clieck a restrauant name then restuarant details with the location on map is shown.]
+        
 
 Filter page. Unfortunately, not all the filters in the real Yelp App, are supported in the Yelp API.
 * [+] The filters you should actually have are: category, sort (best match, distance, highest rated), distance, deals (on/off).
@@ -25,7 +26,7 @@ Filter page. Unfortunately, not all the filters in the real Yelp App, are suppor
 * [+] Optional: Distance filter should expand as in the real Yelp app.
 * [ ] Optional: Categories should show a subset of the full list with a "See All" row to expand.
     A formatted list of categories available in the Public API can be found here.
-* [ ] Optional: Implement the restaurant detail page.
+* [+] Optional: Implement the restaurant detail page.
 
 
 ## Video Walkthrough 
