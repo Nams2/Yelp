@@ -3,7 +3,7 @@ This is a Yelp Search app that uses the Yelp Search API.
 
 Submitted by: Namrata Mehta
 
-Time spent: 12 hours spent in total
+Time spent: 14 hours spent in total
 
 User Stories
 The following user stories must be completed:
