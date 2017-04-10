@@ -19,9 +19,6 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //let centerLocation = CLLocation(latitude: 37.7833, longitude: -122.4167)
-        //goToLocation(location: centerLocation)
-        
         locationManager = CLLocationManager()
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters

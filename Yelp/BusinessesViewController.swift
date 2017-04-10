@@ -100,10 +100,14 @@ class BusinessesViewController: UIViewController, UITableViewDelegate, UITableVi
             
             filtersViewController.delegate = self
 
-        }
-        else if segue.identifier == "mapSegue" {
+        } else if segue.identifier == "mapSegue" {
             print(segue.identifier)
                         
+        } else {
+            let cell = sender as! UITableViewCell
+            let indexPath = tableView.indexPath(for: cell)
+            let detailViewController = segue.destination as! DetailViewController
+            detailViewController.business = businesses[(indexPath?.row)!]
         }
 
         
